@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">">
+    <title>welcome</title>
+    <link rel="stylesheet" href="/static/welcome.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo"></h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="/templates/Info.html">INFO</a></li>
+                    <li><a href="/templates/about.html">ABOUT</a></li>
+                    <!-- <li><a href="#">SYMPTOMS</a></li>
+                    <li><a href="#">MEDICARE</a></li> -->
+                    <li><a href="/templates/FAQs.html">FAQs</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="content">
+            <h1>HEART <br><span>HEALTH</span></h1>
+            <p class="par">"Do your part, care for your heart."
+            </p>
+
+            <button class = "cn"><a href="{{ url_for('home') }}">OPEN</a></button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+</html>

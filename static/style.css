@@ -1,0 +1,115 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+html {
+	height: 100%;
+	margin: 0;
+	background: linear-gradient(rgb(67, 124, 205), rgb(69, 214, 202));
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	box-shadow: rgba(0, 0, 0, 0.403) 0px 10px 20px;
+	padding: 2rem;
+	border-radius: 2rem;
+	background: white;
+	margin-top: 1vh;
+}
+
+
+.container-heading {
+	margin: 0;
+}
+
+.heading_font {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	font-weight: normal;
+}
+
+
+.ml-container {
+	width: 50%;
+	margin: 0, auto;
+	box-shadow: rgba(0, 0, 0, 0.403) 0px 10px 20px;
+	padding: 2rem;
+	border: 3px;
+	border-radius: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	position: absolute;
+	right: 350px;
+	padding: 10px;
+	margin-top: 20vh;
+	width: 50%;
+}
+
+.form {
+	text-align: center;
+	width: 250px;
+	height: 25px;
+	margin-bottom: 5px;
+
+}
+
+input[type=text],
+select {
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+label {
+	display: inline block;
+	width: 200px;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+
+}
+
+.my-cta-button {
+	background: rgb(43, 210, 43);
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding: 10px 36px;
+	display: inline-block;
+	font: italic bold 20px/1 "Calibri", sans-serif;
+	text-align: center;
+}
+
+
+/* Result */
+.results {
+	padding: 30px 0 0;
+	flex: 1 0 auto;
+}
+
+.danger {
+	color: #ff0000;
+}
+
+.safe {
+	color: green;
+}
